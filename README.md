@@ -33,7 +33,7 @@ The search algorithms, heuristics, problem formulation, and state model were wri
 - State: `(current_node, carrying, picked, delivered)`
 - Auto pickup/drop at each node with capacity=2
 - Visualization on top of the actual campus map:
-  - green star = start
+  - green star = start (Always Main Gate)
   - blue triangles = pickup nodes
   - red triangles = drop nodes
   - orange dots = explored nodes
