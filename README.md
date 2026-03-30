@@ -1,7 +1,7 @@
 # CS F407 AI Assignment — Route Planner (Project 3, L2)
 
 Campus pickup-delivery route planner on the BITS Pilani vehicle-road graph.
-Implements BFS, UCS, Greedy, and A* on an augmented state space.
+Implements BFS, UCS, Greedy, and A\* on an augmented state space.
 
 ---
 
@@ -26,7 +26,7 @@ The search algorithms, heuristics, problem formulation, and state model were wri
   - BFS (unit edge costs)
   - UCS (weighted, optimal)
   - Greedy Best-First (heuristic only, fast but not optimal)
-  - A* (optimal, uses either h1 or h2)
+  - A\* (optimal, uses either h1 or h2)
 - 2 admissible heuristics:
   - `nearest_remaining_distance` (h1)
   - `mst_plus_connectors` (h2, dominates h1)
@@ -36,7 +36,7 @@ The search algorithms, heuristics, problem formulation, and state model were wri
   - green star = start
   - blue triangles = pickup nodes
   - red triangles = drop nodes
-  - grey dots = explored nodes
+  - orange dots = explored nodes
   - yellow line = final path
 - Animated search + side-by-side algorithm comparison
 - Interactive desktop UI (tkinter + matplotlib)
@@ -130,9 +130,10 @@ python3 main.py --mode ui
 ```
 
 This opens a desktop control panel with:
+
 - difficulty / case / algorithm / heuristic dropdowns
 - Run Selected (single algorithm)
-- Compare All (BFS/UCS/Greedy/A*)
+- Compare All (BFS/UCS/Greedy/A\*)
 - Run All Cases (batch benchmark over selected difficulty or all)
 - optional animation toggle + delay slider
 - metrics + route output inside the dashboard
@@ -144,6 +145,7 @@ This opens a desktop control panel with:
 - Hard: `hard_01.json` ... `hard_10.json`
 
 When you use **Run All Cases**, the dashboard reports per-algorithm aggregate stats:
+
 - average/min/max weighted path cost
 - average/min/max nodes expanded
 - average/min/max runtime
