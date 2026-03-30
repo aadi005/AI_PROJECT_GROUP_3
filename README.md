@@ -155,6 +155,19 @@ When you use **Run All Cases**, the dashboard reports per-algorithm aggregate st
 
 ---
 
+## Contributors
+
+**CS F407 Artificial Intelligence — Project Group 3**
+
+| Name              | ID            |
+| ----------------- | ------------- |
+| Aaditya Goel      | 2022B3A70417P |
+| Aditya Thole      | 2022B3A70374P |
+| Vedatman Sonpal   | 2022B3A70259P |
+| Anirudh Potukuchi | 2022B3A70212P |
+
+---
+
 ## Behavior notes
 
 - `data/campus_graph.json` is the only search graph used — the PNG is for display only.
